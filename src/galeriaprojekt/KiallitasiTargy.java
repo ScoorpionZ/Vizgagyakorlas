@@ -10,5 +10,22 @@ package galeriaprojekt;
  * @author Varadi.Akos
  */
 public abstract class  KiallitasiTargy {
+    private String keszito, cim;
+
+    public KiallitasiTargy(String keszito, String cim) {
+        this.keszito = keszito;
+        this.cim = cim;
+    }
+
+    public String getKeszito() {
+        return keszito;
+    }
+
+    public String getCim() {
+        return cim;
+    }
+
+
+    
     
 }
