@@ -5,6 +5,8 @@
  */
 package galeriaprojekt;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Varadi.Akos
@@ -16,6 +18,10 @@ public class GaleriaProjekt {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+       
+        KiallitasiTargy k= new  KiallitasiTargy("sfdjk", "sdfsél") {
+        };
+        
     }
     
 }
